@@ -1,0 +1,28 @@
+#webcam-input, #canvas-source {
+  display: none;
+}
+
+#videos {
+  display: inline-block;
+  text-align: right;
+}
+
+.glow {
+  font-size: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #00df43, 0 0 40px #00df43, 0 0 50px #00df43, 0 0 60px #00df43, 0 0 70px #00df43;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #09eb01, 0 0 40px #09eb01, 0 0 50px #09eb01, 0 0 60px #09eb01, 0 0 70px #09eb01, 0 0 80px #09eb01;
+  }
+}
